@@ -1,6 +1,7 @@
 import { Image, SafeAreaView, Text, View } from 'react-native';
 import { Link, Navigator, Stack, useNavigation } from 'expo-router';
 
+import { Calendar } from '../components/Calendar';
 import { CalendarFooter } from '../components/CalendarFooter';
 import Header from '../components/Header/Header';
 import { Layout } from '../components/Layout';
@@ -24,6 +25,8 @@ export default function Home() {
           View all of your Guest bookings and Owner blocks in the calendar
           below.
         </PageHeader>
+
+        <Calendar />
 
         <CalendarFooter />
         {/* <LinkButton
