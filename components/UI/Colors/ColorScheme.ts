@@ -1,0 +1,48 @@
+export const ColorScheme: {
+  [key: string]: string;
+} = {
+  textColor: '#093f46',
+  subTextColor: '#41797f',
+  highlightTextColor: '#14a1b2',
+  contrastTextColor: '#ffffff',
+  linkColor: '#0d8695',
+  primaryActionColor: '#d24f45',
+  secondaryActionColor: '#12575f',
+  secondaryActionPressedColor: '#12575f',
+  borderColor: '#98C0C5',
+  brandSuccess: '#5cb147',
+  brandDanger: '#d24f45',
+  background: '#f6fbfb',
+  backgroundLight: '#ddf0f2',
+  backgroundDark: '#093f46',
+  backgroundAccent: '#14a1b2',
+  backgroundAccentAlt: '#41797f',
+  backgroundInput: '#ffffff',
+  disabledBackground: '#D9D9D9',
+  disabledText: '#999999',
+  disabledDark: '#616161',
+  coolGray: '#E5EFF0',
+  error: '#D24F45',
+  errorContrast: '#FF9F9F',
+  // Primary navigation tabs
+  primaryNavActiveTab: '#10828E',
+  primaryNavTab: '#000000',
+  infoBanner: '#066C78',
+  errorBanner: '#B73F38',
+  alertBanner: '#F4DD4A',
+  placeholderColor: '#EBEBEB',
+  placeholderColorDark: '#97C1C6',
+  navBarBackground: '#FFFFFF',
+  // Status colors
+  open: '#43CDDF',
+  closed: '#093F46',
+  process: '#F9DC00',
+  canceled: '#093F46',
+  failed: '#D24F45',
+  completed: '#5CB147',
+  pending: '#EBCD12',
+
+  // Overlay
+  overlayBackground: '#ffffff',
+  overlayBackgroundContrast: '#000000',
+};
