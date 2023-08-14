@@ -102,7 +102,7 @@ const ListingContent = () => (
         <SectionContainer>
           <Image
             style={{ width: 150, height: 100 }}
-            source={{ uri: "https://picsum.photos/150/100" }}
+            source={{ uri: "https://picsum.photos/150/101" }}
           />
         </SectionContainer>
 
